@@ -44,15 +44,25 @@
 #import "JDPayCenterPickView.h"
 #endif
 
+#import "MBProgressHUD.h"
 #import "MBProgressHUD+JDragon.h"
 
 
 //GCDHelper
 #import "GCD.h"
 
+
+//Log
+#import <CocoaLumberjack/CocoaLumberjack.h>
+
+//UUID
+#import "OpenUDID.h"
+
 //swizzle safe
 #import "JRSwizzle.h"
 #import "SYSafeCategory.h"
+#import "LSSafeProtector.h"
+
 
 
 //uiimage blur

@@ -114,16 +114,16 @@
         [self.selectBtn mas_makeConstraints:^(MASConstraintMaker *make) {
 
             make.top.left.bottom.equalTo(@0);
-            make.width.equalTo(weakSelf.mas_width).multipliedBy(0.5);
+            make.width.equalTo(self.mas_width).multipliedBy(0.5);
         }];
         [self.deleteBtn  mas_makeConstraints:^(MASConstraintMaker *make) {
 
             make.top.bottom.right.equalTo(@0);
-            make.width.equalTo(weakSelf.mas_width).multipliedBy(0.5);
+            make.width.equalTo(self.mas_width).multipliedBy(0.5);
         }];
         [self.lineView mas_makeConstraints:^(MASConstraintMaker *make) {
 
-            make.centerX.equalTo(weakSelf.mas_centerX);
+            make.centerX.equalTo(self.mas_centerX);
             make.top.equalTo(@6);
             make.bottom.equalTo(@-6);
             make.width.equalTo(@0.5);

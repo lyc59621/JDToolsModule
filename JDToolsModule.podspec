@@ -287,7 +287,7 @@ end
   s.dependency  'ICPaySDK/ICWxPay', '~> 1.5.0'
   s.dependency  'ICPaySDK/ICAliPay', '~> 1.5.0'#暂时取消支付宝
 
-  s.dependency 'LSSafeProtector'
+  s.dependency  'LSSafeProtector'
 
   s.dependency  'MBProgressHUD+JDragon','~> 0.0.4'
   s.dependency  'CocoaLumberjack'
