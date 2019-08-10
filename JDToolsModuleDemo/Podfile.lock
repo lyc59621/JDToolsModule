@@ -1,0 +1,375 @@
+PODS:
+  - AliPay_SDK (15.6.5)
+  - CocoaLumberjack (3.5.3):
+    - CocoaLumberjack/Core (= 3.5.3)
+  - CocoaLumberjack/Core (3.5.3)
+  - ICPaySDK/ICAliPay (1.5.1):
+    - AliPay_SDK
+    - ICPaySDK/ICPayManager
+  - ICPaySDK/ICPayManager (1.5.1)
+  - ICPaySDK/ICWxPay (1.5.1):
+    - ICPaySDK/ICPayManager
+    - WechatOpenSDK
+  - JDToolsModule (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - JDToolsModule/Category (= 0.0.1)
+    - JDToolsModule/GCDHelper (= 0.0.1)
+    - JDToolsModule/JDTools (= 0.0.1)
+    - JDToolsModule/Location (= 0.0.1)
+    - JDToolsModule/OpenUDID (= 0.0.1)
+    - JDToolsModule/SySafeCategory (= 0.0.1)
+    - "JDToolsModule/UIImage+Blur (= 0.0.1)"
+    - JDToolsModule/YYFPSLabel (= 0.0.1)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/Category (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - JDToolsModule/Category/JKCategories (= 0.0.1)
+    - JDToolsModule/Category/RAC (= 0.0.1)
+    - JDToolsModule/Category/UIFoundation (= 0.0.1)
+    - JDToolsModule/Category/UIKit (= 0.0.1)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/Category/JKCategories (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/Category/RAC (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/Category/UIFoundation (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/Category/UIKit (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/GCDHelper (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/JDTools (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - JDToolsModule/JDTools/JDAlert (= 0.0.1)
+    - JDToolsModule/JDTools/JDBanner (= 0.0.1)
+    - JDToolsModule/JDTools/JDBtnCountdown (= 0.0.1)
+    - JDToolsModule/JDTools/JDCropImage (= 0.0.1)
+    - JDToolsModule/JDTools/JDDeleteTool (= 0.0.1)
+    - JDToolsModule/JDTools/JDLogger (= 0.0.1)
+    - JDToolsModule/JDTools/JDPick (= 0.0.1)
+    - JDToolsModule/JDTools/JDStarView (= 0.0.1)
+    - JDToolsModule/JDTools/JDTagsView (= 0.0.1)
+    - JDToolsModule/JDTools/JDTSMessage (= 0.0.1)
+    - JDToolsModule/JDTools/JDTypeBtnView (= 0.0.1)
+    - JDToolsModule/JDTools/JDVerifyCode (= 0.0.1)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/JDTools/JDAlert (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/JDTools/JDBanner (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/JDTools/JDBtnCountdown (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/JDTools/JDCropImage (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/JDTools/JDDeleteTool (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/JDTools/JDLogger (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/JDTools/JDPick (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/JDTools/JDStarView (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/JDTools/JDTagsView (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/JDTools/JDTSMessage (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/JDTools/JDTypeBtnView (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/JDTools/JDVerifyCode (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/Location (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/OpenUDID (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/SySafeCategory (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - "JDToolsModule/UIImage+Blur (0.0.1)":
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - JDToolsModule/YYFPSLabel (0.0.1):
+    - CocoaLumberjack
+    - ICPaySDK/ICAliPay (~> 1.5.0)
+    - ICPaySDK/ICPayManager (~> 1.5.0)
+    - ICPaySDK/ICWxPay (~> 1.5.0)
+    - LSSafeProtector
+    - "MBProgressHUD+JDragon (~> 0.0.4)"
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+    - OpenUDID (~> 1.0.0)
+  - LSSafeProtector (2.1.4):
+    - LSSafeProtector/Core (= 2.1.4)
+    - LSSafeProtector/Foundation (= 2.1.4)
+    - LSSafeProtector/MRC (= 2.1.4)
+  - LSSafeProtector/Core (2.1.4)
+  - LSSafeProtector/Foundation (2.1.4):
+    - LSSafeProtector/Core
+  - LSSafeProtector/MRC (2.1.4):
+    - LSSafeProtector/Core
+    - LSSafeProtector/Foundation
+  - MBProgressHUD (0.9.2)
+  - "MBProgressHUD+JDragon (0.0.4)":
+    - MBProgressHUD (~> 0.9.2)
+  - mob_sharesdk (4.2.9.1):
+    - mob_sharesdk/ShareSDK (= 4.2.9.1)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.2.9.1):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.2.9.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.2.9.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.2.4)
+  - OpenUDID (1.0.0)
+  - WechatOpenSDK (1.8.4)
+
+DEPENDENCIES:
+  - JDToolsModule (from `../JDToolsModule.podspec`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AliPay_SDK
+    - CocoaLumberjack
+    - ICPaySDK
+    - LSSafeProtector
+    - MBProgressHUD
+    - "MBProgressHUD+JDragon"
+    - mob_sharesdk
+    - MOBFoundation
+    - OpenUDID
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  JDToolsModule:
+    :path: "../JDToolsModule.podspec"
+
+SPEC CHECKSUMS:
+  AliPay_SDK: 4f94ac544191588946581809b3ad34d1c3e30a83
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  ICPaySDK: 148dbc593fdb94b368066d57054484321c5c9d8a
+  JDToolsModule: 92f145afc725c266276eccf2df325dbb5b3847c1
+  LSSafeProtector: b2e6c263079d365967cc4d19817b38291b5fcbe6
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  "MBProgressHUD+JDragon": 51958736b3a9f97adc176371544ffa257a0ba058
+  mob_sharesdk: ea154cd0f2322600bc59a7d1b30450a56a234044
+  MOBFoundation: dd8f319dde9331590d515a1676d27baccc0070e5
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
+
+PODFILE CHECKSUM: f74e713f4ed8e5310b78321af932cdb604fbc2ef
+
+COCOAPODS: 1.7.3
