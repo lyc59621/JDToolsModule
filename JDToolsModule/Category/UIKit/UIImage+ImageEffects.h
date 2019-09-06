@@ -92,8 +92,8 @@
  EA1002
  5/3/2013
  */
-
-@import UIKit;
+#import <UIKit/UIKit.h>
+//@import UIKit;
 
 @interface UIImage (ImageEffects)
 
