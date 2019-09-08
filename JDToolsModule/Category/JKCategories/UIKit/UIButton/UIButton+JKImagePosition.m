@@ -32,7 +32,7 @@
             
         case LXMImagePositionRight:
             self.imageEdgeInsets = UIEdgeInsetsMake(0, labelWidth + spacing/2, 0, -(labelWidth + spacing/2));
-            self.titleEdgeInsets = UIEdgeInsetsMake(0, -(imageHeight + spacing/2), 0, imageHeight + spacing/2);
+            self.titleEdgeInsets = UIEdgeInsetsMake(0, -(imageWith + spacing/2), 0, imageWith + spacing/2);
             break;
             
         case LXMImagePositionTop:

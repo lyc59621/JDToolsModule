@@ -119,6 +119,11 @@ s.subspec 'JDTools' do |ss|
     sss.source_files = 'JDToolsModule/JDTools/JDCropImage/*.{h,m}'
 
     end
+    
+    ss.subspec 'JDCache' do |sss|
+      sss.source_files = 'JDToolsModule/JDTools/JDCache/*.{h,m}'
+      
+    end
 
     ss.subspec 'JDDeleteTool' do |sss|
     sss.source_files = 'JDToolsModule/JDTools/JDDeleteTool/*.{h,m}'
