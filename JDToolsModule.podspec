@@ -288,12 +288,13 @@ end
   s.dependency  'mob_sharesdk/ShareSDKPlatforms/QQ'
   s.dependency  'mob_sharesdk/ShareSDKPlatforms/SinaWeibo'
   #s.dependency  'mob_sharesdk/ShareSDKPlatforms/WeChat'
-  s.dependency  'ICPaySDK/ICPayManager', '~> 1.5.0'
-  s.dependency  'ICPaySDK/ICWxPay', '~> 1.5.0'
-  s.dependency  'ICPaySDK/ICAliPay', '~> 1.5.0'#暂时取消支付宝
+  s.dependency  'ICPaySDK/ICPayManager', '~> 1.5.1'
+  s.dependency  'ICPaySDK/ICWxPay', '~> 1.5.1'
+  s.dependency  'ICPaySDK/ICAliPay', '~> 1.5.1'#暂时取消支付宝
+  s.dependency  'WechatOpenSDK', '~> 1.8.4'
 
+  
   s.dependency  'LSSafeProtector'
-
   s.dependency  'MBProgressHUD+JDragon','~> 0.0.4'
   s.dependency  'CocoaLumberjack'
   s.dependency  'OpenUDID', '~> 1.0.0'
